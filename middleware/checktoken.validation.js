@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const SECRET_KEY = 'colombianaperra'
+const SECRET_KEY = 'thisisatest'
 const {db} = require('../config/medics')
 
 const checkToken = (req,res,next) => {
